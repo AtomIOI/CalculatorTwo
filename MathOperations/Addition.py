@@ -4,8 +4,8 @@ class Addition:
         return augend + addend
 
     @staticmethod
-    def sumList(list):
+    def sumlist(list):
         result = 0
         for value in list:
-            result = Addition.sum(value,result)
+            result = Addition.sum(value, result)
         return result
