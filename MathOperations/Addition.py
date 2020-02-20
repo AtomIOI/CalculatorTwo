@@ -1,7 +1,7 @@
 class Addition:
     @staticmethod
     def sum(augend, addend):
-        return augend + addend + 1
+        return augend + addend
 
     @staticmethod
     def sumlist(list):
